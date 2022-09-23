@@ -80,7 +80,6 @@ class _LoginFormState extends State<LoginForm> {
                   margin: EdgeInsets.all(30.0),
 
                   width: double.infinity,
-                  //TROCADA  FlatButton -> TextButton
                   child: TextButton(
                     child: Text(
                       'Login',
@@ -103,7 +102,6 @@ class _LoginFormState extends State<LoginForm> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text('Não tem uma conta?'),
-                    //TROCADA  FlatButton -> TextButton
                       TextButton(
                         //textColor: Colors.purple,
                         child: Text('Criar conta!', style: TextStyle( color: Colors.purple),),

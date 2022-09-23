@@ -48,7 +48,6 @@ class _DietlistState extends State<Dietlist> {
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                //TROCADA  FlatButton -> TextButton
                   
                   child: TextButton(
                       //color: Colors.deepPurple[50],

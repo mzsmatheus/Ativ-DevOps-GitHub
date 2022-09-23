@@ -148,7 +148,6 @@ class _SignupFormState extends State<SignupForm> {
                 Container(
                   margin: EdgeInsets.all(30.0),
                   width: double.infinity,
-                  //TROCADA  FlatButton -> TextButton
                   child: TextButton(
                     child: Text(
                       'Cadastrar',
@@ -169,7 +168,6 @@ class _SignupFormState extends State<SignupForm> {
                     children: [
                       Text('Já tem uma conta?'),
                       TextButton(
-                        //TROCADA  FlatButton -> TextButton
                         // textColor: Colors.purple,
                         child: Text('Fazer login!', style: TextStyle(color: Colors.purple),),
                         onPressed: (){

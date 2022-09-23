@@ -42,7 +42,7 @@ class _AvFisicaState extends State<AvFisica> {
         child: Icon(Icons.add),
       ),
       appBar: AppBar(
-        title: Text('Tela de avaliação'),
+        title: Text('Tela de avaliação.'),
       ),
       body: Container(
         height: MediaQuery.of(context).size.height * 0.75,
