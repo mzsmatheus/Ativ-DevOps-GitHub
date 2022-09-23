@@ -14,7 +14,7 @@ class avaliacaoAdd extends StatefulWidget {
 class _avaliacaoAddState extends State<avaliacaoAdd> {
   String dataString = "";
   String dataEscolhida = "";
-  String escolhaData = "Escolha uma data:";
+  String escolhaData = "Coloca uma data:";
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +46,7 @@ class _avaliacaoAddState extends State<avaliacaoAdd> {
         child: Column(
           children: [
             Text(
-              'Adicionar Avaliação',
+              'Add Avaliação',
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 26,
@@ -83,7 +83,7 @@ class _avaliacaoAddState extends State<avaliacaoAdd> {
                             dataSplit[0];
 
                         setState(() {
-                          dataEscolhida = "A data escolhida foi: ";
+                          dataEscolhida = "Data: ";
                           escolhaData = "";
                         });
                       }),
