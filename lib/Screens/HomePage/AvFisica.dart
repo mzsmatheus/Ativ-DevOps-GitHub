@@ -1,5 +1,5 @@
 import 'package:app_maromba/Avaliacoes/avaliacoes.dart';
-import 'package:app_maromba/Avaliacoes/avaliacoAesdd.dart';
+import 'package:app_maromba/Avaliacoes/avaliacoesAdd.dart';
 import 'package:flutter/material.dart';
 
 class AvFisica extends StatefulWidget {
@@ -42,7 +42,7 @@ class _AvFisicaState extends State<AvFisica> {
         child: Icon(Icons.add),
       ),
       appBar: AppBar(
-        title: Text('Avaliação Fisica'),
+        title: Text('Tela de avaliação'),
       ),
       body: Container(
         height: MediaQuery.of(context).size.height * 0.75,
