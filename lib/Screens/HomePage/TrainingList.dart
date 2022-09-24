@@ -33,7 +33,7 @@ class _TrainingListState extends State<TrainingList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Treinos'),
+        title: Text('Treinos.'),
         actions: [
           IconButton(
             icon: Icon(Icons.calendar_month),

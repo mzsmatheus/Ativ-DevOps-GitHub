@@ -130,7 +130,6 @@ class _EditProfileFormState extends State<EditProfileForm> {
                 Container(
                   margin: EdgeInsets.all(30.0),
                   width: double.infinity,
-                  //TROCADA  FlatButton -> TextButton
                   child: TextButton(
                     child: Text(
                       'Salvar',
